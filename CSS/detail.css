@@ -1,0 +1,96 @@
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 50px auto;
+    align-items: left;
+    max-width: 400px;
+}
+
+.detail-image {
+    max-width: 400px;
+    border: 1px solid black;
+}
+
+.radio {
+    padding: 20px 0px; 
+}
+
+.radio_input {
+    display: none;
+}
+
+.radio_label {
+    background-color: lightgrey;
+    color: black;
+    outline: 0,5px solid black;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+.radio_input:checked + .radio_label {
+    background: #0A3641;
+    color:#fff;
+}
+
+.shop {
+    padding: 20px 0px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.costumer-reviews {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.main-content {
+    position: relative;
+    overflow: hidden;  
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    right: -400px;
+    width: 400px;
+    height: 650px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease-out;
+}
+
+.overlay-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-image {
+    max-width: 250px;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
+
+body:target .overlay {
+    top: 0px;
+    right: 0px;
+}
+
+.overlay-close {
+    padding: 10px;
+    color: black; 
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}

@@ -1,0 +1,22 @@
+.product-info {
+    padding: 0px 15px;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    align-items: top;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.grids {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    margin: auto;
+    justify-content:space-around;
+}

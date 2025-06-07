@@ -1,0 +1,78 @@
+@media (min-width:1000px) {
+    nav {
+        display: flex;
+        position: static;
+    }
+    .hamburger {
+        display: none;
+    }
+
+.text {
+    display: none;   
+}
+
+.nav-menu {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 2rem;
+}
+
+.stars,
+.small-stars {
+    font-size: 1rem;
+}
+
+nav li {
+    display:inline-block;
+}
+
+.div1 {
+    background-image: url(../images/chris-fuller-d3NxWWhhiPQ-unsplash-comp.png);
+}
+
+.welcome-text {
+    background: none;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-rows: 1fr 220px;
+    grid-template-columns: 1fr 500px;
+    grid-template-areas:
+    "div2 div1"
+    "div3 div1" 
+ }
+
+.detail-info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1000px;
+    align-items:flex-start;
+}
+
+.costumer-reviews {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}

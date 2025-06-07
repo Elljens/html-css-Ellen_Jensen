@@ -1,0 +1,60 @@
+.welcome-text {
+    color:#FF5F00;
+    background: #00000060;
+    padding: 10px;
+}
+
+.div1 {
+    background-image: url(../images/chris-fuller-d3NxWWhhiPQ-unsplash\ cropped.png);
+    background-size: cover;
+    background-position: center;
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+    margin: 50px;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-rows: 300px 1fr 200px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "div1"
+    "div2"
+    "div3"
+}
+
+.main-div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    padding:  10px 50px;
+    gap: 50px;
+}
+
+.index-div2 {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-image {
+    max-width: 100%;
+}
+
+.index-button {
+    background:#0A3641;
+    color:#fff;
+    font-family: "Krona one";
+    text-decoration: none;
+    font-size: 1,5rem;
+    text-align: center;
+    padding: 20px 30px;
+}
