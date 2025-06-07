@@ -29,6 +29,7 @@
     border-radius: 5px;
     border: 0.5px solid gray;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .radio_input:checked + .radio_label {
