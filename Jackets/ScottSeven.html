@@ -20,22 +20,24 @@
       <section class="header-line"></section>
       <section class="nav-header">
          <input type="checkbox" id="menu-checkbox" />
-         <label for="menu-checkbox" class="hamburger"><i class="fa-solid fa-bars fa-2x"></i></label> 
+         <label for="menu-checkbox" class="hamburger" aria-label="drop-down menu"><i class="fa-solid fa-bars fa-2x"></i></label> 
          <nav>
-             <ul>
-                 <li><a href="../index.html"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
-                 <li><a href="../womens_collection.html">Womens collection</a> </li>
-                 <li><a href="../mens_collection.html">Mens collection</a> </li>
-                 <li><a href="../my_profile.html"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
-                 <li><a href="../favourites.html"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
-                 <li><a href="../cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
-             </ul>
+            <ul>
+                <li><a href="../index.html" aria-label="home"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
+                <li><a href="../womens_collection.html">Womens collection</a> </li>
+                <li><a href="../mens_collection.html">Mens collection</a> </li>
+                <li><a href="../my_profile.html" aria-label="profile"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
+                <li><a href="../favourites.html" aria-label="favourites"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
+                <li><a href="../cart.html" aria-label="cart"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
+            </ul>
          </nav>
-          <input type="search" name="search" value="search" id="search" class="search" />
+         <form class="search">
+            <input type="search" name="search" value="search" id="search" aria-label="search-field"/>
+          </form>
       </section>
   </header>
   <body id="overlay">
-    <p onclick="history.back()" class="back"><i class="fa-regular fa-chevron-left fa-2x"></i></p>
+    <button onclick="history.back()" aria-label="back"><i class="fa-regular fa-chevron-left fa-2x"></i></button>
     <div class="main-content">
     <h1>Scott Seven Rain Jacket</h1>
     <div class="detail-info">
@@ -46,7 +48,7 @@
         <p>Best for: Classic style & functional layering</p>
         <p>The Scott Seven is a versatile rain shell with Helly Tech® Protection, providing reliable waterproofing, windproofing, and breathability. It has a clean, athletic fit and features a storm flap, adjustable cuffs, and anti-chafe chin guard. It works well over midlayers, making it perfect for spring through fall.</p>
         <div class="stars">
-        <span>
+        <span aria-label="five star review">
             <i class="small-stars fa-solid fa-star fa-1x"></i>
             <i class="small-stars fa-solid fa-star fa-1x"></i>
             <i class="small-stars fa-solid fa-star fa-1x"></i>
@@ -56,7 +58,7 @@
         <h2>$129</h2>
         </div>
         <h3>Choose size</h3>
-        <div class="radio">
+        <fieldset class="radio">
             <input class="radio_input" type="radio" name="size" value="S" id="size-small">
             <label class="radio_label" for="size-small">S</label>
             <input class="radio_input" type="radio" name="size" value="M" id="size-medium">
@@ -65,14 +67,14 @@
             <label class="radio_label" for="size-large">L</label>
             <input class="radio_input" type="radio" name="size" value="XL" id="size-extralarge">
             <label class="radio_label" for="size-extralarge">XL</label>
-        </div> 
+        </fieldset> 
         <div class="shop">
             <a href="#overlay" class="cta-button">Add to cart</a>
         </div>
         </div>  
     </div>
     <div class="overlay">
-        <a href="#"><i class="fa-regular fa-xmark fa-2x overlay-close"></i></a>
+        <a href="#" aria-label="close"><i class="fa-regular fa-xmark fa-2x overlay-close"></i></a>
         <div>
         <div class="overlay-details">
             <h2>Added to cart</h2>
@@ -91,7 +93,7 @@
     <div class="costumer-reviews">
         <h2>Costumer reviews</h2>
         <h3>Jane R.</h3>
-        <span>
+        <span aria-label="five star review">
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
@@ -100,7 +102,7 @@
         </span>
         <p>Took this on a 4-day trek through the Rockies and got caught in a relentless storm. Stayed bone dry. Breathes well even when you're pushing elevation.</p>
         <h3>Tanya L.</h3>
-        <span>
+        <span aria-label="five star review">
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
@@ -109,7 +111,7 @@
         </span>
         <p>The fit is athletic, which I love, but if you're layering heavily underneath, size up. Zero complaints on waterproofing—its basically storm armor.</p>
         <h3>Sophie T.</h3>
-        <span>
+        <span aria-label="five star review">
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
             <i class="small-stars fa-solid fa-star"></i>
@@ -118,32 +120,32 @@
         </span>
         <p>Honestly, best jacket for the price. Wore it through three seasons commuting in Portland and it's held up beautifully. Love the eco angle too.</p>
         <h3>Hannah S.</h3>
-<span>
-    <i class="small-stars fa-solid fa-star"></i>
-    <i class="small-stars fa-solid fa-star"></i>
-    <i class="small-stars fa-solid fa-star"></i>
-    <i class="small-stars fa-solid fa-star"></i>
-    <i class="small-stars fa-solid fa-star"></i>
-</span>
-<p>Super comfortable and more breathable than other rain jackets I have tried. Looks great, too!</p>
-</div>
+        <span aria-label="five star review">
+            <i class="small-stars fa-solid fa-star"></i>
+            <i class="small-stars fa-solid fa-star"></i>
+            <i class="small-stars fa-solid fa-star"></i>
+            <i class="small-stars fa-solid fa-star"></i>
+            <i class="small-stars fa-solid fa-star"></i>
+        </span>
+        <p>Super comfortable and more breathable than other rain jackets I have tried. Looks great, too!</p>
+    </div>
     </div>
     <section class="header-line"></section>
   </body>
   <footer class="footer">
     <div>
-        <a href="www.paypal.com"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
-        <a href="www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
-        <a href="www.mastercard.com"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
+        <a href="https://www.paypal.com" aria-label="paypal"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
+        <a href="https://www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
+        <a href="https://www.mastercard.com" aria-label="mastercard"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
     </div>
     <div>
-        <a href="../contact.html"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
-        <a href="../shipping.html"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
+        <a href="../contact.html" aria-label="contact"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
+        <a href="../shipping.html" aria-label="shipping"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
     </div>
     <div>
-        <a href="www.facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a>
-        <a href="www.x.com"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
-        <a href="www.instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com" aria-label="facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="https://www.x.com" aria-label="X"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com" aria-label="instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
     </div>
   </footer>
   </main>

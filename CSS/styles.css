@@ -9,7 +9,7 @@ header {
 }
 
 .header-line {
-    background-color: #FF5F00;
+    background-color: #ff4800;
     height: 7px;
 }
 
@@ -62,7 +62,7 @@ nav li {
 }
 
 .search {
-    margin: 10px;
+    margin: 0px 10px;
     padding: 10px;
 }
 
@@ -70,12 +70,16 @@ body {
     font-family: "kulim park", Verdana, Tahoma, sans-serif;
 }
 
-.back {
-    padding: 10px 20px 0px 20px;
-    background-color: none;  
+
+button {
+    background: none;  
+    border: none;
     position: absolute;
+    top: 270px;
     cursor: pointer;
+    padding: 20px;
     z-index: 2;
+    font-size: 1rem;
 }
 
 h1 {
@@ -85,7 +89,7 @@ h1 {
 }
 
 .cta-button {
-    background-color: #FF5F00;
+    background-color: #ff4800;
     color: #fff;
     padding: 10px 80px;
     border-radius: 5px;
@@ -138,7 +142,7 @@ h1 {
 }
 
 .checked {
-    color:#FF5F00;
+    color: #ff4800;
 }
 
 .footer {

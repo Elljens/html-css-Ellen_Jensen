@@ -20,22 +20,24 @@
       <section class="header-line"></section>
       <section class="nav-header">
          <input type="checkbox" id="menu-checkbox" />
-         <label for="menu-checkbox" class="hamburger"><i class="fa-solid fa-bars fa-2x"></i></label> 
+         <label for="menu-checkbox" class="hamburger" aria-label="drop-down menu"><i class="fa-solid fa-bars fa-2x"></i></label> 
          <nav>
-             <ul>
-                 <li><a href="index.html"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
-                 <li><a href="womens_collection.html">Womens collection</a> </li>
-                 <li><a href="mens_collection.html">Mens collection</a> </li>
-                 <li><a href="my_profile.html"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
-                 <li><a href="favourites.html"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
-                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
-             </ul>
+            <ul>
+                <li><a href="index.html" aria-label="home"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
+                <li><a href="womens_collection.html">Womens collection</a> </li>
+                <li><a href="mens_collection.html">Mens collection</a> </li>
+                <li><a href="my_profile.html" aria-label="profile"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
+                <li><a href="favourites.html" aria-label="favourites"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
+                <li><a href="cart.html" aria-label="cart"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
+            </ul>
          </nav>
-          <input type="search" name="search" value="search" id="search" class="search" />
+         <form class="search">
+            <input type="search" name="search" value="search" id="search" aria-label="search-field"/>
+          </form>
       </section>
   </header>
   <body>
-    <p onclick="history.back()" class="back"><i class="fa-regular fa-chevron-left fa-2x"></i></p>
+    <button onclick="history.back()" aria-label="back"><i class="fa-regular fa-chevron-left fa-2x"></i></button>
     <h1>Mens Collection</h1>
     <section class="grids">
         <div class="product-info">
@@ -44,7 +46,7 @@
             <h2>Scott Seven Rain Jacket</h2>
             <p>Best for: Classic style & functional layering</p>
             <p>The Scott Seven is a versatile rain shell with Helly Tech® Protection, providing reliable waterproofing, windproofing, and breathability. It has a clean, athletic fit and features a storm flap, adjustable cuffs, and anti-chafe chin guard. It works well over midlayers, making it perfect for spring through fall. </p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -60,7 +62,7 @@
             <h2>Scott Dryzzle Jacket</h2>
             <p>Best for: Urban explorers & tech gear fans</p>
             <p>This jacket is ultra-breathable and waterproof—ideal for dynamic weather and active use. It's sleek and modern with minimal seams, adjustable hood, and an eco-conscious design. Great for city life, hiking, or layering over performance gear during unpredictable conditions.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -76,7 +78,7 @@
             <h2>Scott City Breeze Rain Jacket</h2>
             <p>Best for: Urban commuters & chic minimalists</p>
             <p>A stylish yet functional piece, this parka combines waterproof DryVent™ technology with a modern silhouette. It extends past the hips for added coverage, features a two-way front zipper, and has a soft mesh lining for comfort. With clean lines and subtle branding, it is ideal for navigating city life in style—even in a downpour.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -92,7 +94,7 @@
             <h2>Scott Beta AR Jacket</h2>
             <p>Best for: Hardcore adventurers & alpine athletes</p>
             <p>Built with GORE-TEX Pro for maximum durability and waterproofing, the Beta AR is engineered for rugged conditions. Lightweight but tough, it features articulated patterning for mobility, helmet-compatible hood, and watertight zippers. Whether you're mountaineering, hiking, or caught in a storm, this jacket can handle it all—without compromising on packability.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -109,7 +111,7 @@
             <h2>Scott Torrentshell 3L Jacket</h2>
             <p>Best for: Sustainable adventurers & outdoor enthusiasts</p>
             <p>This eco-friendly jacket offers three-layer H2No® Performance Standard technology, providing long-lasting waterproof protection while remaining breathable and lightweight. It features an adjustable hood, pit zips for ventilation, and a packable design that folds into its own pocket—perfect for hiking or everyday use in unpredictable weather. Made with 100% recycled nylon.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -126,7 +128,7 @@
             <h2>Scott Arcadia II Rain Jacket</h2>
             <p>Best for: Everyday wear & budget-conscious shoppers</p>
             <p>A go-to classic, the Arcadia II features Columbias Omni-Tech™ waterproof and breathable shell with fully sealed seams to keep you dry. It has a flattering feminine cut, an adjustable storm hood, and zippered hand pockets. Lightweight and packable, it's ideal for commuting, travel, or casual strolls in the rain.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -143,7 +145,7 @@
             <h2>Scott Watertight II Jacket</h2>
             <p>Best for: Budget-friendly protection & casual wear</p>
             <p>This jacket offers solid waterproofing with Columbias Omni-Tech™ technology and a mesh lining for breathability. Lightweight and simple, it has an adjustable hood, elastic cuffs, and zippered hand pockets. Perfect for commuters, travelers, or anyone who needs a no-fuss, packable rain jacket without breaking the bank.</p>
-            <span>
+            <span aria-label="five star review">
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
                 <i class="small-stars fa-solid fa-star"></i>
@@ -158,18 +160,18 @@
   </body>
   <footer class="footer">
     <div>
-        <a href="www.paypal.com"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
-        <a href="www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
-        <a href="www.mastercard.com"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
+        <a href="https://www.paypal.com" aria-label="paypal"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
+        <a href="https://www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
+        <a href="https://www.mastercard.com" aria-label="mastercard"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
     </div>
     <div>
-        <a href="contact.html"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
-        <a href="shipping.html"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
+        <a href="contact.html" aria-label="contact"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
+        <a href="shipping.html" aria-label="shipping"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
     </div>
     <div>
-        <a href="www.facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a>
-        <a href="www.x.com"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
-        <a href="www.instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com" aria-label="facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="https://www.x.com" aria-label="X"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com" aria-label="instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
     </div>
   </footer>
   </main>

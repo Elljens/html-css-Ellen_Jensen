@@ -19,22 +19,24 @@
       <section class="header-line"></section>
       <section class="nav-header">
          <input type="checkbox" id="menu-checkbox" />
-         <label for="menu-checkbox" class="hamburger"><i class="fa-solid fa-bars fa-2x"></i></label> 
+         <label for="menu-checkbox" class="hamburger" aria-label="drop-down menu"><i class="fa-solid fa-bars fa-2x"></i></label> 
          <nav>
-             <ul>
-                 <li><a href="index.html"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
-                 <li><a href="womens_collection.html">Womens collection</a> </li>
-                 <li><a href="mens_collection.html">Mens collection</a> </li>
-                 <li><a href="my_profile.html"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
-                 <li><a href="favourites.html"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
-                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
-             </ul>
+          <ul>
+            <li><a href="index.html" aria-label="home"><i class="fa-solid fa-house"></i><span class="text">  Home  </span></a></li>
+            <li><a href="womens_collection.html">Womens collection</a> </li>
+            <li><a href="mens_collection.html">Mens collection</a> </li>
+            <li><a href="my_profile.html" aria-label="profile"><i class="fa-solid fa-circle-user"></i><span class="text">  Profile  </span></a> </li>
+            <li><a href="favourites.html" aria-label="favourites"><i class="fa-solid fa-heart"></i><span class="text">  Favourites  </span></a> </li>
+            <li><a href="cart.html" aria-label="cart"><i class="fa-solid fa-cart-shopping"></i><span class="text">  Cart  </span></a> </li>
+        </ul>
          </nav>
-          <input type="search" name="search" value="search" id="search" class="search" />
+         <form class="search">
+          <input type="search" name="search" value="search" id="search" aria-label="search-field"/>
+        </form>
       </section>
   </header>
   <body>
-    <p onclick="history.back()" class="back"><i class="fa-regular fa-chevron-left fa-2x"></i></p>
+    <button onclick="history.back()" aria-label="back"><i class="fa-regular fa-chevron-left fa-2x"></i></button>
     <section class="confirmed">
     <i class="fa-regular fa-circle-check fa-8x checked"></i>
     <h1>Your order is confirmed</h1>
@@ -45,18 +47,18 @@
   </body>
   <footer class="footer">
     <div>
-        <a href="www.paypal.com"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
-        <a href="www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
-        <a href="www.mastercard.com"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
+        <a href="https://www.paypal.com" aria-label="paypal"><i class="fa-brands fa-cc-paypal fa-2x"></i></a>
+        <a href="https://www.visa.com"><i class="fa-brands fa-cc-visa fa-2x"></i></a>
+        <a href="https://www.mastercard.com" aria-label="mastercard"><i class="fa-brands fa-cc-mastercard fa-2x"></i></a>
     </div>
     <div>
-        <a href="contact.html"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
-        <a href="shipping.html"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
+        <a href="contact.html" aria-label="contact"><i class="fa-solid fa-phone fa-2x"></i> Contact us</a>
+        <a href="shipping.html" aria-label="shipping"><i class="fa-solid fa-truck fa-2x"></i> Shipping and return policy</a>
     </div>
     <div>
-        <a href="www.facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a>
-        <a href="www.x.com"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
-        <a href="www.instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com" aria-label="facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="https://www.x.com" aria-label="X"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com" aria-label="instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
     </div>
   </footer>
   </main>
