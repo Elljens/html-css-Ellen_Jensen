@@ -13,14 +13,14 @@ header {
     height: 7px;
 }
 
-nav,
-#menu-checkbox {
+
+#drop-down-menu {
     display: none;
 }
 
-#menu-checkbox:checked ~ nav {
+#drop-down-menu:checked ~ nav {
     display: block;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-header {
@@ -38,6 +38,7 @@ nav {
     background-color: #0A3641;
     left: 0px;
     top: 60px;
+    display: none;
 }
 
 nav a {
@@ -56,7 +57,7 @@ nav li {
     padding: 10px 0px;
 }
 
-.hamburger {
+.dropdown {
     color: #fff;
     padding: 10px 15px;
 }
@@ -71,14 +72,15 @@ body {
 }
 
 button {
+    color: black;
     background: none;  
     border: none;
     position: absolute;
-    top: 270px;
+    top: 280px;
     cursor: pointer;
     padding: 20px;
     font-size: 1rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 h1 {
@@ -112,18 +114,19 @@ h1 {
     padding: 20px;
 }
 
-.favourites {
-    padding: 0px 20px 50px 20px;
-}
-
 .cart-image {
     max-width: 250px;
     border: 1px solid black;
     margin: 10px 0px;
 }
 
+.favourites {
+    padding: 0px 20px 50px 20px;
+}
+
 .favourite-site {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 

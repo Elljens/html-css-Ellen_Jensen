@@ -44,7 +44,8 @@
 .cart-style {
     background-color: #fff;
     border: 0pt;
-    padding: 5px;
+    padding: 20px 5px;
+    margin: 20px 0px;
 }
 
 .form {

@@ -1,11 +1,12 @@
 @media (min-width:1000px) {
-    nav {
-        display: flex;
-        position: static;
-    }
-    .hamburger {
-        display: none;
-    }
+    
+nav {
+    display: flex;
+    position: static;
+}
+.dropdown {
+    display: none;
+}
 
 .text {
     display: none;   
