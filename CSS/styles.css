@@ -70,7 +70,6 @@ body {
     font-family: "kulim park", Verdana, Tahoma, sans-serif;
 }
 
-
 button {
     background: none;  
     border: none;
@@ -78,8 +77,8 @@ button {
     top: 270px;
     cursor: pointer;
     padding: 20px;
-    z-index: 2;
     font-size: 1rem;
+    z-index: 2;
 }
 
 h1 {
