@@ -67,6 +67,11 @@ nav li {
     padding: 10px;
 }
 
+input {
+    height: 30px;
+    border-radius: 5px;
+}
+
 body {
     font-family: "kulim park", Verdana, Tahoma, sans-serif;
 }
