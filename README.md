@@ -7,4 +7,4 @@ My first coding project. The task was to deliver a functioning, responsive websi
 The website is created with HTML and CSS only.
 
 
-
+-Elljens
